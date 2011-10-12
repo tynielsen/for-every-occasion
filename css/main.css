@@ -34,6 +34,7 @@ body {
 	background: linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* W3C */
 	color: #000000;
 	font-family: helvetica;
+	font-size: 12px;
 	height: 100%;
 	behavior: url(../PIE.htc);
 }
@@ -58,15 +59,8 @@ a:visited {
 	outline: none;
 	overflow: hidden;
 }
-sup {
-	font-size: 60%;
-	vertical-align: top;
-}
-.clear {
-	clear: both;
-	display: block;
-}
-
+sup { font-size: 60%; vertical-align: top;}
+.clear { clear: both; display: block;}
 
 
 /*******************************************
@@ -76,25 +70,16 @@ sup {
 *******************************************/
 
 
-b {
-	font-weight: 700;
-}
-em {
-	font-style: oblique;
-}
+b { font-weight: 700;}
+em { font-style: oblique;}
 h1 {
-	
 }
 h2 {
-	
 }
 h3 {
-	
 }
-p {
-	
+p {	
 }
-
 
 
 /*******************************************
@@ -105,9 +90,7 @@ p {
 
 
 form {
-	
 }
-
 
 
 /*******************************************
@@ -137,7 +120,6 @@ header a#logo {
 	height: 50px;
 	margin: 10px auto 0px;
 }
-
 
 
 /*******************************************
@@ -170,9 +152,7 @@ header a#logo {
 	left: 0px;
 	background-position: 8px 6px;
 }
-#main-nav #nav-1 a:hover, #main-nav #nav-1.current a {
-	background: url(../img/main-nav.png) no-repeat 8px -44px;
-}
+#main-nav #nav-1 a:hover, #main-nav #nav-1.current a { background: url(../img/main-nav.png) no-repeat 8px -44px;}
 #main-nav #nav-2 a {
 	width: 95px;
 	height: 57px;
@@ -180,9 +160,7 @@ header a#logo {
 	left: 130px;
 	background-position: -110px -4px;
 }
-#main-nav #nav-2 a:hover, #main-nav #nav-2.current a {
-	background: url(../img/main-nav.png) no-repeat -110px -54px;
-}
+#main-nav #nav-2 a:hover, #main-nav #nav-2.current a { background: url(../img/main-nav.png) no-repeat -110px -54px;}
 #main-nav #nav-3 a {
 	width: 94px;
 	height: 57px;
@@ -190,9 +168,7 @@ header a#logo {
 	left: 272px;
 	background-position: -271px -5px;
 }
-#main-nav #nav-3 a:hover, #main-nav #nav-3.current a {
-	background: url(../img/main-nav.png) no-repeat -271px -55px;
-}
+#main-nav #nav-3 a:hover, #main-nav #nav-3.current a { background: url(../img/main-nav.png) no-repeat -271px -55px;}
 #main-nav #nav-4 a {
 	width: 102px;
 	height: 51px;
@@ -200,10 +176,7 @@ header a#logo {
 	right: 0px;
 	background-position: -412px 8px;
 }
-#main-nav #nav-4 a:hover, #main-nav #nav-4.current a {
-	background: url(../img/main-nav.png) no-repeat -412px -42px;
-}
-
+#main-nav #nav-4 a:hover, #main-nav #nav-4.current a { background: url(../img/main-nav.png) no-repeat -412px -42px;}
 
 
 /*******************************************
@@ -233,8 +206,7 @@ footer ul#footer-nav li a {
 	color: #000000;
 	margin-left: 10px;
 }
-footer ul#footer-nav li a:hover { text-decoration: underline;}
-
+footer ul#footer-nav li a:hover { text-decoration: underline; }
 
 
 /*******************************************
@@ -283,7 +255,6 @@ ul.image-carousel li.last-active{
 }
 
 
-
 /*******************************************
 
 	@Section: Home Page Content
@@ -314,9 +285,7 @@ ul.image-carousel li.last-active{
 	color: #000000;
 	font-weight: bold;
 }
-#services ul.services-list p a:hover {
-	text-decoration: underline;
-}
+#services ul.services-list p a:hover { text-decoration: underline;}
 #services ul.services-list li.flowers h3 a {
 	background: url(../img/header-flowers-1.png) no-repeat;
 	display: block;
@@ -343,3 +312,29 @@ ul.image-carousel li.last-active{
 }
 
 
+/*******************************************
+
+	@Section: Gallery Page
+
+*******************************************/
+
+
+ul.ad-thumb-list { list-style-image:url(list-style.gif);}
+pre {
+	font-family: "Lucida Console", "Courier New", Verdana;
+	border: 1px solid #CCC;
+	background: #f2f2f2;
+	padding: 10px;
+}
+#gallery {
+	border: 1px solid #000000;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 30px 100px;
+	margin: 25px auto 75px;
+	box-shadow: 0px 5px 12px #000000;
+	-moz-box-shadow: 0px 5px 12px #000000;
+	-webkit-box-shadow: 0px 5px 12px #000000;
+	behavior: url(PIE.htc);
+}
