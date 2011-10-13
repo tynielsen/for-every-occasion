@@ -338,3 +338,25 @@ pre {
 	-webkit-box-shadow: 0px 5px 12px #000000;
 	behavior: url(PIE.htc);
 }
+
+
+/*******************************************
+
+	@Section: Gallery Page
+
+*******************************************/
+
+
+#contact-us #content {
+	margin-top: 80px;
+}
+#contact-us #content .column-1 {
+	float: left;
+	width: 500px;
+}
+#contact-us #content .column-2 {
+	background: url(../img/contact-img-1.jpg) no-repeat;
+	width: 300px;
+	height: 389px;
+	float: right;
+}
