@@ -89,7 +89,74 @@ p {
 *******************************************/
 
 
-form {
+#contact-us form {
+	clear: both;
+	margin-bottom: 80px;
+	padding-top: 50px;
+}
+#contact-us form .section-one, #contact-us form .section-two {
+	width: 400px;
+	float: left;
+	margin-bottom: 15px;
+}
+.form-field-1 {
+	margin-bottom: 7px;
+}
+.form-field-1 label {
+	width: 80px;
+	padding: 5px 0px 0 0;
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+.form-field-1 input {
+	width: 250px;
+}
+#contact-us form input.submit {
+	margin-top: 10px;
+	width: 75px;
+}
+#contact-us form .section-two p {
+	margin-bottom: 6px;
+}
+.form-field-2 {
+	float: left;
+	width: 130px;
+	margin-bottom: 2px;
+}
+span#sprytextarea_comments {
+	display: block;
+	clear: both;
+}
+span#sprytextarea_comments label {
+	display: block;
+	font-weight: bold;
+}
+span#sprytextarea_comments textarea {
+	width: 800px;
+	resize: none;
+}
+.textfieldRequiredMsg, .textfieldInvalidFormatMsg, .textfieldMinValueMsg, .textfieldMaxValueMsg, .textfieldMinCharsMsg, .textfieldMaxCharsMsg, .textfieldValidMsg {
+    display: none;
+}
+.textfieldRequiredState .textfieldRequiredMsg, .textfieldInvalidFormatState .textfieldInvalidFormatMsg, .textfieldMinValueState .textfieldMinValueMsg, .textfieldMaxValueState .textfieldMaxValueMsg, .textfieldMinCharsState .textfieldMinCharsMsg, .textfieldMaxCharsState .textfieldMaxCharsMsg {
+    border: 1px solid #CC3333;
+    color: #CC3333;
+    display: inline;
+}
+.textfieldValidState input, input.textfieldValidState {
+    background-color: #B8F5B1;
+}
+input.textfieldRequiredState, .textfieldRequiredState input, input.textfieldInvalidFormatState, .textfieldInvalidFormatState input, input.textfieldMinValueState, .textfieldMinValueState input, input.textfieldMaxValueState, .textfieldMaxValueState input, input.textfieldMinCharsState, .textfieldMinCharsState input, input.textfieldMaxCharsState, .textfieldMaxCharsState input {
+    background-color: #FF9F9F;
+}
+.textfieldFocusState input, input.textfieldFocusState {
+    background-color: #FFFFCC;
+}
+.textfieldFlashText input, input.textfieldFlashText {
+    color: red !important;
+}
+.textfieldHintState input, input.textfieldHintState {
 }
 
 
@@ -219,7 +286,6 @@ footer ul#footer-nav li a:hover { text-decoration: underline; }
 div#content {
 	width: 809px;
 	margin: auto;
-	height: 900px;
 	position: relative;
 	z-index: 0;
 }
@@ -252,6 +318,7 @@ ul.image-carousel li.last-active{
 	width: 809px;
 	height: 230px;
 	text-indent: -99999px;
+	margin: 0 auto 150px;
 }
 
 
@@ -342,7 +409,7 @@ pre {
 
 /*******************************************
 
-	@Section: Gallery Page
+	@Section: Contact Us Page
 
 *******************************************/
 
@@ -353,6 +420,30 @@ pre {
 #contact-us #content .column-1 {
 	float: left;
 	width: 500px;
+}
+#contact-us #content .column-1 h2.text-contactUs {
+	background: url(../img/text-contactUs.png) no-repeat;
+	width: 225px;
+	height: 40px;
+	text-indent: -9999px;
+	margin-bottom: 50px;
+}
+#contact-us #content .column-1 h2.text-emailUsForm {
+	background: url(../img/text-emailUsForm.png) no-repeat;
+	width: 334px;
+	height: 48px;
+	text-indent: -9999px;
+	margin-top: 165px;
+}
+#contact-us #content .phone, #contact-us #content .email {
+	font-size: 24px;
+	padding-bottom: 15px;
+}
+#contact-us #content .phone {
+	
+}
+#contact-us #content .email {
+	
 }
 #contact-us #content .column-2 {
 	background: url(../img/contact-img-1.jpg) no-repeat;
