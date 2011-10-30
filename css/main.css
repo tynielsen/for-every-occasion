@@ -331,7 +331,7 @@ ul.image-carousel li.last-active{
 
 #services ul.services-list{
 	width: 650px;
-	margin: 60px auto 20px;
+	margin: 60px auto 75px;
 }
 #services ul.services-list li {
 	line-height: 1.4;
@@ -359,24 +359,73 @@ ul.image-carousel li.last-active{
 	width: 147px;
 	height: 40px;
 	text-indent: -9999px;
-	margin: 10px 0px 15px;
+	margin: 20px 0px 15px;
 }
-#services ul.services-list li.backdrops h3 a {
-	background: url(../img/header-backdrops-1.png) no-repeat;
+#services ul.services-list li.consultant h3 a {
+	background: url(../img/text-consultant.png) no-repeat;
 	display: block;
-	width: 172px;
+	width: 609px;
+	height: 43px;
+	text-indent: -9999px;
+	margin: 20px 0px 15px;
+}
+#services ul.services-list li.decorations h3 a {
+	background: url(../img/text-decorations.png) no-repeat;
+	display: block;
+	width: 372px;
+	height: 43px;
+	text-indent: -9999px;
+	margin: 20px 0px 15px;
+}
+#services ul.services-list li.packages h3 a {
+	background: url(../img/text-packages.png) no-repeat;
+	display: block;
+	width: 150px;
 	height: 50px;
 	text-indent: -9999px;
-	margin: 10px 0px 15px;
+	margin: 20px 0px 15px;
 }
-#services ul.services-list li.linens h3 a {
-	background: url(../img/header-linens-1.png) no-repeat;
+#services ul.services-list li.invitations h3 a {
+	background: url(../img/text-invitations.png) no-repeat;
 	display: block;
-	width: 114px;
+	width: 188px;
 	height: 28px;
 	text-indent: -9999px;
-	margin: 10px 0px 15px;
+	margin: 20px 0px 15px;
 }
+#services ul.services-list li.special-events h3 a {
+	background: url(../img/text-specialEvents.png) no-repeat;
+	display: block;
+	width: 244px;
+	height: 50px;
+	text-indent: -9999px;
+	margin: 20px 0px 15px;
+}
+#services ul.services-list li.cakes h3 a {
+	background: url(../img/text-cakes.png) no-repeat;
+	display: block;
+	width: 93px;
+	height: 35px;
+	text-indent: -9999px;
+	margin: 20px 0px 15px;
+}
+#services ul.services-list li.music h3 a {
+	background: url(../img/text-music.png) no-repeat;
+	display: block;
+	width: 104px;
+	height: 29px;
+	text-indent: -9999px;
+	margin: 20px 0px 15px;
+}
+#services ul.services-list li.lighting h3 a {
+	background: url(../img/text-lighting.png) no-repeat;
+	display: block;
+	width: 148px;
+	height: 50px;
+	text-indent: -9999px;
+	margin: 20px 0px 15px;
+}
+
 
 
 /*******************************************
