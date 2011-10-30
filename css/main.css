@@ -369,6 +369,14 @@ ul.image-carousel li.last-active{
 	text-indent: -9999px;
 	margin: 20px 0px 15px;
 }
+#services ul.services-list li.catering h3 a {
+	background: url(../img/text-catering.png) no-repeat;
+	display: block;
+	width: 145px;
+	height: 44px;
+	text-indent: -9999px;
+	margin: 20px 0px 15px;
+}
 #services ul.services-list li.decorations h3 a {
 	background: url(../img/text-decorations.png) no-repeat;
 	display: block;
