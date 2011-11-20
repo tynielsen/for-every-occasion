@@ -507,8 +507,11 @@ ul.image-carousel li.last-active{
 	height: 44px;
 }
 #service-details .left-side p {
-	line-height: 1.6;
 	text-align: center;
+}
+#service-details .left-side p, .lower-half p {
+	line-height: 1.6;
+	margin-bottom: 15px;
 }
 #service-details .right-side {
 	float: right;
