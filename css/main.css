@@ -454,7 +454,7 @@ ul.image-carousel li.last-active{
 	float: left;
 	width: 360px;
 	padding-right: 40px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 #service-details h3 {
 	margin-bottom: 40px;
@@ -467,6 +467,11 @@ ul.image-carousel li.last-active{
 	height: 43px;
 	width: 809px;
 	margin-right: 0px;
+}
+#service-details h4 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 10px;
 }
 #service-details h3.decorations-header {
 	background: url(../img/text-decorations.png) no-repeat 0px 0px;
@@ -507,7 +512,7 @@ ul.image-carousel li.last-active{
 	height: 44px;
 }
 #service-details .left-side p {
-	text-align: center;
+	margin-bottom: 30px !important;
 }
 #service-details .left-side p, .lower-half p {
 	line-height: 1.6;
@@ -516,13 +521,29 @@ ul.image-carousel li.last-active{
 #service-details .right-side {
 	float: right;
 	width: 400px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 #service-details .right-side img {
 	width: 400px;
 }
 #service-details .lower-half {
+	background: none repeat scroll 0 0 #DDDDDD;
+	border-radius: 20px 0 20px 0;
+	box-shadow: -1px 0px 2px #333333;
 	margin-bottom: 60px;
+	padding: 20px;
+}
+p.diy span, p.diy b {
+	color: #75923C;
+	font-weight: bold;
+}
+p.a-la-carte span, p.a-la-carte b {
+	color: #C0504D;
+	font-weight: bold;
+}
+p.whole-package span, p.whole-package b {
+	color: #0171C0;
+	font-weight: bold;
 }
 
 
