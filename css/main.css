@@ -477,8 +477,9 @@ ul.image-carousel li.last-active{
 	height: 44px;
 }
 #service-details h3.music-header {
-	background: url(../img/text-music.png) no-repeat center 0px;
-	height: 29px;
+	background: url(../img/text-music2.png) no-repeat center 0px;
+	width: 454px;
+	height: 44px;
 }
 #service-details h3.lighting-header {
 	background: url(../img/text-lighting.png) no-repeat center 0px;
@@ -515,6 +516,7 @@ ul.img-row li {
 	float: left;
 	margin-left: 80px;
 }
+.music ul.img-row li { margin-left: 197px; }
 .specialEvents ul.img-row li { margin-left: 40px; }
 ul.img-row li:first-child { margin-left: 0px; }
 ul.img-row li img {
