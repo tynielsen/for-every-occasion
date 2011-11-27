@@ -480,6 +480,18 @@ ul.image-carousel li.last-active{
 	width: 365px;
 	height: 45px;
 }
+a.btn-back {
+	background: url(../img/btn-back.png) no-repeat 0px 0px;
+	display: block;
+	width: 71px;
+	height: 15px;
+	text-indent: -9999px;
+	float: left;
+	margin-top: -50px;
+}
+a.btn-back:hover {
+	background: url(../img/btn-back-ro.png) no-repeat 0px 0px;
+}
 
 
 /*******************************************
