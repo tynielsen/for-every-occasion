@@ -16,7 +16,16 @@
 ************************************/
 
 
-html { background: #BAA583; }
+html {
+	background: #BAA583; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #baa583 40%, #baa583 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(40%,#baa583), color-stop(100%,#baa583)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#baa583',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* W3C */
+}
 body {
 	background: #BAA583; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #baa583 40%, #baa583 100%); /* FF3.6+ */
