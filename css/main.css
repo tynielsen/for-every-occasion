@@ -45,7 +45,7 @@ a {
 	text-decoration: none;
 	outline: none;
 	overflow: hidden;
-	color: #ffffff;
+	color: #000000;
 }
 a:hover {
 	text-decoration: none;
@@ -678,7 +678,8 @@ pre {
 }
 #contact-us #content .phone {
 }
-#contact-us #content .email {
+#contact-us #content .email a:hover {
+	text-decoration: underline;
 }
 #contact-us #content .column-2 {
 	background: url(../img/contact-img-1.jpg) no-repeat;
