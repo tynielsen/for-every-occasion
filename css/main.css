@@ -516,6 +516,7 @@ ul.img-row li {
 	float: left;
 	margin-left: 80px;
 }
+.catering ul.img-row li { margin-left: 155px; }
 .music ul.img-row li { margin-left: 197px; }
 .specialEvents ul.img-row li { margin-left: 40px; }
 ul.img-row li:first-child { margin-left: 0px; }
