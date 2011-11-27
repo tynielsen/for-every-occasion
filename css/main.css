@@ -441,15 +441,12 @@ ul.image-carousel li.last-active{
 
 /*******************************************
 
-	@Section: Details Page
+	@Section: Details Page Main
 
 *******************************************/
 
 
-
-#service-details #content {
-	margin-top: 50px;
-}
+#service-details #content { margin-top: 50px; }
 #service-details .left-side {
 	float: left;
 	width: 360px;
@@ -465,12 +462,18 @@ ul.image-carousel li.last-active{
 #service-details h3.consultant-header {
 	background: url(../img/text-consultant2.png) no-repeat 0px 0px;
 	height: 43px;
-	width: 809px;
-	margin-right: 0px;
+	width: 609px;
+	margin: 0px auto;
+}
+#service-details h4.consultant-subheader {
+	background: url(../img/text-SavesYouTimeAndMoney.png) no-repeat 0px 0px;
+	width: 366px;
+	height: 40px;
+	text-indent: -9999px;
+	margin: 0px auto 40px;
 }
 #service-details h4 {
 	font-size: 24px;
-	text-decoration: underline;
 	margin-bottom: 10px;
 }
 #service-details h3.decorations-header {
@@ -511,27 +514,51 @@ ul.image-carousel li.last-active{
 	background: url(../img/text-catering.png) no-repeat center 0px;
 	height: 44px;
 }
-#service-details .left-side p {
-	margin-bottom: 30px !important;
+
+
+
+/*******************************************
+
+	@Section: Details Page, Layout 1
+
+*******************************************/
+
+
+ul.img-row { margin-bottom: 60px; }
+ul.img-row li:first-child { margin-left: 0px; }
+ul.img-row li {
+	float: left;
+	margin-left: 80px;
 }
-#service-details .left-side p, .lower-half p {
-	line-height: 1.6;
-	margin-bottom: 15px;
-}
-#service-details .right-side {
-	float: right;
-	width: 400px;
-	margin-bottom: 30px;
-}
-#service-details .right-side img {
-	width: 400px;
-}
-#service-details .lower-half {
-	background: none repeat scroll 0 0 #DDDDDD;
-	border-radius: 20px 0 20px 0;
+ul.img-row li img {
 	box-shadow: -1px 0px 2px #333333;
+	-moz-box-shadow: -1px 0px 2px #333333;
+	-webkit-box-shadow: -1px 0px 2px #333333;
+}
+#service-details .deets-container-1 p, .deets-container-2 p {
+	line-height: 1.6;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#service-details .deets-container-1, #service-details .deets-container-2 {
+	background: none repeat scroll 0 0 #DDDDDD;
 	margin-bottom: 60px;
-	padding: 20px;
+	padding: 25px 50px 10px;
+	width: 350px;
+	margin: 0px auto 60px;
+	border-radius: 20px 0 20px 0;
+	-moz-border-radius: 20px 0 20px 0;
+	-webkit-border-radius: 20px 0 20px 0;
+	box-shadow: -1px 0px 2px #333333;
+	-moz-box-shadow: -1px 0px 2px #333333;
+	-webkit-box-shadow: -1px 0px 2px #333333;
+}
+p.diy span, p.a-la-carte span, p.whole-package span {
+	display: block;
+	float: left;
+	width: 70px;
+	height: 100px;
+	margin-right: 40px;
 }
 p.diy span, p.diy b {
 	color: #75923C;
@@ -545,6 +572,17 @@ p.whole-package span, p.whole-package b {
 	color: #0171C0;
 	font-weight: bold;
 }
+
+
+
+/*******************************************
+
+	@Section: Details Page, Layout 2
+
+*******************************************/
+
+
+
 
 
 
