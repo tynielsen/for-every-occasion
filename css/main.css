@@ -389,8 +389,8 @@ ul.image-carousel li.last-active{
 #services ul.services-list li.cakes h3 a {
 	background: url(../img/text-cakes.png) no-repeat;
 	display: block;
-	width: 93px;
-	height: 35px;
+	width: 254px;
+	height: 44px;
 	text-indent: -9999px;
 	margin: 20px 0px 15px;
 }
@@ -427,21 +427,6 @@ ul.image-carousel li.last-active{
 	margin-bottom: 30px;
 }
 #service-details h3 {
-	margin-bottom: 40px;
-	width: 360px;
-	text-indent: -9999px;
-	margin-right: 440px;
-}
-#service-details h3.consultant-header {
-	background: url(../img/text-consultant2.png) no-repeat 0px 0px;
-	height: 43px;
-	width: 609px;
-	margin: 0px auto;
-}
-#service-details h4.consultant-subheader {
-	background: url(../img/text-savesYouTimeAndMoney.png) no-repeat 0px 0px;
-	width: 366px;
-	height: 40px;
 	text-indent: -9999px;
 	margin: 0px auto 40px;
 }
@@ -449,11 +434,15 @@ ul.image-carousel li.last-active{
 	font-size: 24px;
 	margin-bottom: 10px;
 }
+#service-details h3.consultant-header {
+	background: url(../img/text-consultant2.png) no-repeat 0px 0px;
+	height: 88px;
+	width: 677px;
+}
 #service-details h3.decorations-header {
 	background: url(../img/text-decorations.png) no-repeat 0px 0px;
 	height: 43px;
 	width: 809px;
-	margin-right: 0px;
 }
 #service-details h3.packages-header {
 	background: url(../img/text-packages.png) no-repeat center 0px;
@@ -464,16 +453,19 @@ ul.image-carousel li.last-active{
 	height: 28px;
 }
 #service-details h3.specialEvents-header {
-	background: url(../img/text-specialEvents.png) no-repeat center 0px;
-	height: 50px;
+	background: url(../img/text-specialEvents2.png) no-repeat center 0px;
+	width: 595px;
+	height: 192px;
 }
 #service-details h3.floral-header {
-	background: url(../img/header-flowers-1.png) no-repeat center 0px;
-	height: 35px;
+	background: url(../img/text-floral2.png) no-repeat center 0px;
+	width: 254px;
+	height: 71px;
 }
 #service-details h3.cake-header {
-	background: url(../img/text-cakes.png) no-repeat center 0px;
-	height: 35px;
+	background: url(../img/text-cakes2.png) no-repeat center 0px;
+	width: 254px;
+	height: 44px;
 }
 #service-details h3.music-header {
 	background: url(../img/text-music.png) no-repeat center 0px;
@@ -484,8 +476,9 @@ ul.image-carousel li.last-active{
 	height: 50px;
 }
 #service-details h3.catering-header {
-	background: url(../img/text-catering.png) no-repeat center 0px;
-	height: 44px;
+	background: url(../img/text-catering2.png) no-repeat center 0px;
+	width: 365px;
+	height: 45px;
 }
 
 
@@ -497,11 +490,12 @@ ul.image-carousel li.last-active{
 
 
 ul.img-row { margin-bottom: 60px; }
-ul.img-row li:first-child { margin-left: 0px; }
 ul.img-row li {
 	float: left;
 	margin-left: 80px;
 }
+.specialEvents ul.img-row li { margin-left: 40px; }
+ul.img-row li:first-child { margin-left: 0px; }
 ul.img-row li img {
 	box-shadow: -1px 0px 2px #333333;
 	-moz-box-shadow: -1px 0px 2px #333333;
@@ -513,8 +507,50 @@ ul.img-row li img {
 	margin-bottom: 30px;
 	text-align: center;
 }
+#service-details .deets-container-1 p.fancy {
+	font-style: italic;
+	font-size: 18px;
+	line-height: 2;
+}
+#service-details .deets-container-1 ul {
+	line-height: 1.6;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #75923C;
+	font-style: italic;
+	font-size: 14px;
+}
+ul.price-description {
+	float: left;
+	width: 125px;
+}
+ul.price-description li {
+	text-align: right;
+	text-transform: none;
+	color: #000000;
+}
+ul.pricing {
+	float: right;
+	width: 125px;
+}
+ul.pricing li {
+	text-align: left;
+	text-transform: none;
+	color: #000000;
+}
+#service-details .deets-container-2 ul {
+	line-height: 1.6;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #0171C0;
+	font-style: italic;
+	text-transform: uppercase;
+}
+#service-details .deets-container-2 ul li {
+	margin-bottom: 10px;
+}
 #service-details .deets-container-1, #service-details .deets-container-2 {
-	background: none repeat scroll 0 0 #DDDDDD;
+	background: none repeat scroll 0 0 #ededed;
 	margin-bottom: 60px;
 	padding: 25px 50px 10px;
 	width: 350px;
