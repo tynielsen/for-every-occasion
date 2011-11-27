@@ -1,5 +1,4 @@
 /********************************************************************************
-Rain CSS Coding Standards outlined at http://standards.mediarain.com/html-css
 
 	@Section: Applies to all page sections
 	**Search for @ symbol or @Section: to search by category
@@ -9,23 +8,15 @@ Rain CSS Coding Standards outlined at http://standards.mediarain.com/html-css
     	black: #000000
     	 gray: #333333
 
-	Font-Family Reference:
-	
-
 ********************************************************************************/
-
-
-
 /************************************
 
-	@Search: Global
+	@Section: Global
 
 ************************************/
 
 
-html {
-	background: #BAA583;
-}
+html { background: #BAA583; }
 body {
 	background: #BAA583; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #baa583 40%, #baa583 100%); /* FF3.6+ */
@@ -75,14 +66,10 @@ sup { font-size: 60%; vertical-align: top;}
 
 b { font-weight: 700;}
 em { font-style: oblique;}
-h1 {
-}
-h2 {
-}
-h3 {
-}
-p {	
-}
+h1 {}
+h2 {}
+h3 {}
+p {}
 
 
 /*******************************************
@@ -102,9 +89,7 @@ p {
 	float: left;
 	margin-bottom: 15px;
 }
-.form-field-1 {
-	margin-bottom: 7px;
-}
+.form-field-1 { margin-bottom: 7px; }
 .form-field-1 label {
 	width: 80px;
 	padding: 5px 0px 0 0;
@@ -112,16 +97,12 @@ p {
 	float: left;
 	font-weight: bold;
 }
-.form-field-1 input {
-	width: 250px;
-}
+.form-field-1 input { width: 250px; }
 #contact-us form input.submit {
 	margin-top: 10px;
 	width: 75px;
 }
-#contact-us form .section-two p {
-	margin-bottom: 6px;
-}
+#contact-us form .section-two p { margin-bottom: 6px; }
 .form-field-2 {
 	float: left;
 	width: 130px;
@@ -147,20 +128,13 @@ span#sprytextarea_comments textarea {
     color: #CC3333;
     display: inline;
 }
-.textfieldValidState input, input.textfieldValidState {
-    background-color: #B8F5B1;
-}
+.textfieldValidState input, input.textfieldValidState { background-color: #B8F5B1; }
 input.textfieldRequiredState, .textfieldRequiredState input, input.textfieldInvalidFormatState, .textfieldInvalidFormatState input, input.textfieldMinValueState, .textfieldMinValueState input, input.textfieldMaxValueState, .textfieldMaxValueState input, input.textfieldMinCharsState, .textfieldMinCharsState input, input.textfieldMaxCharsState, .textfieldMaxCharsState input {
-    background-color: #FF9F9F;
+	background-color: #FF9F9F;
 }
-.textfieldFocusState input, input.textfieldFocusState {
-    background-color: #FFFFCC;
-}
-.textfieldFlashText input, input.textfieldFlashText {
-    color: red !important;
-}
-.textfieldHintState input, input.textfieldHintState {
-}
+.textfieldFocusState input, input.textfieldFocusState { background-color: #FFFFCC; }
+.textfieldFlashText input, input.textfieldFlashText { color: red !important; }
+.textfieldHintState input, input.textfieldHintState {}
 
 
 /*******************************************
@@ -438,7 +412,6 @@ ul.image-carousel li.last-active{
 }
 
 
-
 /*******************************************
 
 	@Section: Details Page Main
@@ -516,7 +489,6 @@ ul.image-carousel li.last-active{
 }
 
 
-
 /*******************************************
 
 	@Section: Details Page, Layout 1
@@ -534,6 +506,7 @@ ul.img-row li img {
 	box-shadow: -1px 0px 2px #333333;
 	-moz-box-shadow: -1px 0px 2px #333333;
 	-webkit-box-shadow: -1px 0px 2px #333333;
+	behavior: url(PIE.htc);
 }
 #service-details .deets-container-1 p, .deets-container-2 p {
 	line-height: 1.6;
@@ -552,6 +525,7 @@ ul.img-row li img {
 	box-shadow: -1px 0px 2px #333333;
 	-moz-box-shadow: -1px 0px 2px #333333;
 	-webkit-box-shadow: -1px 0px 2px #333333;
+	behavior: url(PIE.htc);
 }
 p.diy span, p.a-la-carte span, p.whole-package span {
 	display: block;
@@ -574,13 +548,11 @@ p.whole-package span, p.whole-package b {
 }
 
 
-
 /*******************************************
 
 	@Section: Details Page, Layout 2
 
 *******************************************/
-
 
 
 
@@ -593,7 +565,7 @@ p.whole-package span, p.whole-package b {
 *******************************************/
 
 
-ul.ad-thumb-list { list-style-image:url(list-style.gif);}
+ul.ad-thumb-list { list-style-image:url(list-style.gif); }
 pre {
 	font-family: "Lucida Console", "Courier New", Verdana;
 	border: 1px solid #CCC;
@@ -621,9 +593,7 @@ pre {
 *******************************************/
 
 
-#contact-us #content {
-	margin-top: 80px;
-}
+#contact-us #content { margin-top: 80px; }
 #contact-us #content .column-1 {
 	float: left;
 	width: 500px;
@@ -647,10 +617,8 @@ pre {
 	padding-bottom: 15px;
 }
 #contact-us #content .phone {
-	
 }
 #contact-us #content .email {
-	
 }
 #contact-us #content .column-2 {
 	background: url(../img/contact-img-1.jpg) no-repeat;
