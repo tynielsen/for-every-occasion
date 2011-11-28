@@ -499,9 +499,11 @@ a.btn-back {
 	float: left;
 	margin-top: -50px;
 }
+/*
 a.btn-back:hover {
 	background: url(../img/btn-back-ro.png) no-repeat 0px 0px;
 }
+*/
 
 
 /*******************************************
