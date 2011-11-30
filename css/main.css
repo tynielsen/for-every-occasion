@@ -463,12 +463,14 @@ ul.image-carousel li.last-active{
 }
 #service-details h4 {
 	font-size: 24px;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
+	float: left;
+	width: 150px;
 }
 #service-details h3.consultant-header {
 	background: url(../img/text-consultant2.png) no-repeat 0px 0px;
-	height: 88px;
-	width: 677px;
+	height: 91px;
+	width: 684px;
 }
 #service-details h3.decorations-header {
 	background: url(../img/text-decorations.png) no-repeat 0px 0px;
@@ -485,23 +487,23 @@ ul.image-carousel li.last-active{
 }
 #service-details h3.specialEvents-header {
 	background: url(../img/text-specialEvents2.png) no-repeat center 0px;
-	width: 595px;
-	height: 192px;
+	width: 603px;
+	height: 200px;
 }
 #service-details h3.floral-header {
 	background: url(../img/text-floral2.png) no-repeat center 0px;
-	width: 254px;
-	height: 71px;
+	width: 262px;
+	height: 80px;
 }
 #service-details h3.cake-header {
 	background: url(../img/text-cakes2.png) no-repeat center 0px;
-	width: 254px;
-	height: 44px;
+	width: 262px;
+	height: 52px;
 }
 #service-details h3.music-header {
 	background: url(../img/text-music2.png) no-repeat center 0px;
-	width: 454px;
-	height: 44px;
+	width: 459px;
+	height: 53px;
 }
 #service-details h3.lighting-header {
 	background: url(../img/text-lighting.png) no-repeat center 0px;
@@ -509,8 +511,8 @@ ul.image-carousel li.last-active{
 }
 #service-details h3.catering-header {
 	background: url(../img/text-catering2.png) no-repeat center 0px;
-	width: 365px;
-	height: 45px;
+	width: 373px;
+	height: 53px;
 }
 a.btn-back {
 	background: url(../img/btn-back.png) no-repeat 0px 0px;
@@ -535,15 +537,15 @@ a.btn-back:hover {
 *******************************************/
 
 
-ul.img-row { margin-bottom: 60px; }
+ul.img-row { margin: 0 25px 60px 29px; }
 ul.img-row li {
 	float: left;
-	margin-left: 80px;
+	margin-left: 53px;
 }
-.cakes ul.img-row li { margin-left: 117px; }
-.catering ul.img-row li { margin-left: 155px; }
-.music ul.img-row li { margin-left: 197px; }
-.specialEvents ul.img-row li { margin-left: 40px; }
+.cakes ul.img-row li { margin-left: 90px; }
+.catering ul.img-row li { margin-left: 129px; }
+.music ul.img-row li { margin-left: 170px; }
+.specialEvents ul.img-row li { margin-left: 12px; }
 ul.img-row li:first-child { margin-left: 0px; }
 ul.img-row li img {
 	box-shadow: 0px 5px 12px #333333;
