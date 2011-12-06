@@ -98,7 +98,7 @@ Enter the email address below to send the contents of the form to.  You can ente
 
 */
 
-$my_email = "tynielsen@gmail.com";
+$my_email = "4everyoccasion@gmail.com";
 
 /*
 
@@ -106,7 +106,7 @@ Optional.  Enter a From: email address.  Only do this if you know you need to.  
 
 */
 
-$from_email = "tynielsen@gmail.com";
+$from_email = "4everyoccasion@gmail.com";
 
 /*
 
