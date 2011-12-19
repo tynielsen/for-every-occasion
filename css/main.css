@@ -274,6 +274,24 @@ footer ul#footer-nav li a:hover { text-decoration: underline; }
 *******************************************/
 
 
+#rpt-rose-right {
+	background: url(../img/rpt-rose-right.png) repeat-y 0px 0px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 60px;
+	height: 100%;
+	z-index: 1000;
+}
+#rpt-rose-left {
+	background: url(../img/rpt-rose-left.png) repeat-y 0px 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 89px;
+	height: 100%;
+	z-index: 1000;
+}
 div#content {
 	width: 809px;
 	margin: auto;
