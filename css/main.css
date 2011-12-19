@@ -274,23 +274,59 @@ footer ul#footer-nav li a:hover { text-decoration: underline; }
 *******************************************/
 
 
-#rpt-rose-right {
-	background: url(../img/rpt-rose-right.png) repeat-y 0px 0px;
+.frame {
 	position: fixed;
 	top: 0px;
-	right: 0px;
-	width: 60px;
 	height: 100%;
 	z-index: 1000;
 }
+#rpt-rose-right {
+	background: url(../img/rpt-rose-right.png) repeat-y 0px 0px;
+	right: 0px;
+	width: 79px;
+}
 #rpt-rose-left {
 	background: url(../img/rpt-rose-left.png) repeat-y 0px 0px;
-	position: fixed;
+	left: 0px;
+	width: 79px;
+}
+#rpt-red-ribbon-right {
+	background: url(../img/rpt-red-ribbon-right.png) repeat-y 0px 0px;
+	right: 0px;
+	width: 81px;
+}
+#rpt-red-ribbon-left {
+	background: url(../img/rpt-red-ribbon-left.png) repeat-y 0px 0px;
+	left: 0px;
+	width: 81px;
+}
+#rpt-gold-ribbon-right {
+	background: url(../img/rpt-gold-ribbon-right.png) repeat-y 0px 0px;
+	right: 0px;
+	width: 81px;
+}
+#rpt-gold-ribbon-left {
+	background: url(../img/rpt-gold-ribbon-left.png) repeat-y 0px 0px;
+	left: 0px;
+	width: 81px;
+}
+.background {
+	background: #ffffff;
+	opacity: 0.7;
+	box-shadow: 0px 0px 20px #ffffff;
+	width: 750px;
+	height: 100%;
+	display: block;
+	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 89px;
-	height: 100%;
-	z-index: 1000;
+	box-shadow: 0px 0px 20px #ffffff;
+	-moz-box-shadow: 0px 0px 20px #ffffff;
+	-webkit-box-shadow: 0px 0px 20px #ffffff;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	z-index: -1;
 }
 div#content {
 	width: 809px;
@@ -591,9 +627,7 @@ ul.img-row li img {
 	line-height: 1.6;
 	text-align: center;
 	margin-bottom: 30px;
-	color: #75923C;
 	font-style: italic;
-	font-size: 14px;
 }
 ul.price-description {
 	float: left;
@@ -617,7 +651,6 @@ ul.pricing li {
 	line-height: 1.6;
 	text-align: center;
 	margin-bottom: 30px;
-	color: #0171C0;
 	font-style: italic;
 	text-transform: uppercase;
 }
@@ -628,18 +661,13 @@ ul.pricing li {
 	width: 650px;
 	margin: 0px auto 60px;
 	font-size: 24px;
-	box-shadow: 0px 5px 12px #333333;
-	-moz-box-shadow: 0px 5px 12px #333333;
-	-webkit-box-shadow: 0px 5px 12px #333333;
-	background: #BAA583; /* Old browsers */
-	background: -moz-linear-gradient(top, #baa583 0%, #D0C2AA 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#baa583), color-stop(100%,#D0C2AA)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #baa583 0%,#D0C2AA 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #baa583 0%,#D0C2AA 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #baa583 0%,#D0C2AA 100%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#baa583', endColorstr='#D0C2AA',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #baa583 0%,#D0C2AA 100%); /* W3C */
-	behavior: url(PIE.htc);
+	position: relative;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	box-shadow: 0px 0px 20px #ffffff;
+	-webkit-box-shadow: 0px 0px 20px #ffffff;
+	-moz-box-shadow: 0px 0px 20px #ffffff;
 }
 
 #service-details .deets-container-2 {
@@ -649,15 +677,9 @@ ul.pricing li {
 	-moz-border-radius-bottomleft: 20px;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
-	background: #BAA583; /* Old browsers */
-	background: -moz-linear-gradient(top, #D0C2AA 0%, #baa583 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D0C2AA), color-stop(100%,#baa583)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #D0C2AA 0%,#baa583 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #D0C2AA 0%,#baa583 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #D0C2AA 0%,#baa583 100%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D0C2AA', endColorstr='#baa583',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #D0C2AA 0%,#baa583 100%); /* W3C */
-	behavior: url(PIE.htc);
+	box-shadow: 0px 0px 20px #ffffff;
+	-webkit-box-shadow: 0px 0px 20px #ffffff;
+	-moz-box-shadow: 0px 0px 20px #ffffff;
 }
 p.diy span, p.a-la-carte span, p.whole-package span {
 	display: block;
