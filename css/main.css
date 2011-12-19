@@ -533,13 +533,21 @@ ul.image-carousel li.last-active{
 	height: 53px;
 }
 a.btn-back {
-	background: url(../img/btn-back.png) no-repeat 0px 0px;
+	background: #000000 url(../img/btn-back.png) no-repeat center 6px;
 	display: block;
 	width: 71px;
 	height: 15px;
 	text-indent: -9999px;
 	float: left;
 	margin: -70px 0 0 30px;
+	padding: 5px 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 2px 2px 3px #000000;
+	-moz-box-shadow: 2px 2px 3px #000000;
+	-webkit-box-shadow: 2px 2px 3px #000000;
+	behavior: url(PIE.htc);
 }
 /*
 a.btn-back:hover {
