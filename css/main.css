@@ -523,15 +523,23 @@ a.btn-back {
 *******************************************/
 
 ul.img-row { margin: 0 25px 60px 29px; position: relative;}
-ul.img-row li#img-1 { float: left; margin-top: 10px; position: relative;}
+ul.img-row li#img-1 {
+	float: left;
+	position: relative;
+	z-index: 10;
+}
 ul.img-row li#img-2 {
 	position: absolute;
 	top: 30px;
 	left: 377px;
 	margin-left: -132px;
-	z-index: 10;
+	z-index: 9;
 }
-ul.img-row li#img-3 { float: right; position: relative;}
+ul.img-row li#img-3 {
+	float: right;
+	position: relative;
+	z-index: 8;
+}
 ul.img-row li img {
 	width: 255px;
 	border: 5px solid #fffbe6;
