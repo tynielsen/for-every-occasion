@@ -44,112 +44,121 @@
 			</div>
 			<form action="FormToEmail.php" method="post" enctype="multipart/form-data">
 				<div class="section-one">
-				<div class="form-field-1">
-					<span id="sprytextfield_name">
-						<label for="name">Name:</label>
-						<input type="text" name="name" id="name" />
+					<div class="form-field-1">
+						<span id="sprytextfield_name">
+							<label for="name">Name:</label>
+							<input type="text" name="name" id="name" />
+							<span class="textfieldRequiredMsg">A value is required.</span>
+						</span>
+					</div>
+					<div class="form-field-1">
+						<label for="phone">Phone #:</label>
+						<input type="text" name="phone" id="phone" />
 						<span class="textfieldRequiredMsg">A value is required.</span>
-					</span>
-				</div>
-				<div class="form-field-1">
-					<label for="phone">Phone #:</label>
-					<input type="text" name="phone" id="phone" />
-				</div>
-				<div class="form-field-1">
-					<span id="sprytextfield_address">
-						<label for="email">Email:</label>
-						<input type="text" name="email" id="email" />
-						<span class="textfieldRequiredMsg">A value is required.</span>
-						<span class="textfieldInvalidFormatMsg">Invalid format.</span>
-					</span>
-				</div>
-				<div class="form-field-1">
-					<label for="colors">Colors:</label>
-					<input type="text" name="colors" id="colors" />
-				</div>
-				<div class="form-field-1">
-					<label for="guests"># of Guests:</label>
-					<input type="text" name="guests" id="guests" />
-				</div>
+					</div>
+					<div class="form-field-1">
+						<span id="sprytextfield_address">
+							<label for="email">Email:</label>
+							<input type="text" name="email" id="email" />
+							<span class="textfieldRequiredMsg">A value is required.</span>
+							<span class="textfieldInvalidFormatMsg">Invalid format.</span>
+						</span>
+					</div>
+					<div class="form-field-1">
+						<label for="colors">Colors:</label>
+						<input type="text" name="colors" id="colors" />
+					</div>
+					<div class="form-field-1">
+						<label for="guests"># of Guests:</label>
+						<input type="text" name="guests" id="guests" />
+					</div>
+					<div class="form-field-1">
+						<label for="date">Date of Event:</label>
+						<input type="text" name="date" id="date" />
+					</div>
+					<div class="form-field-1">
+						<label for="location">Location of Event:</label>
+						<input type="text" name="location" id="location" />
+					</div>
 				</div>
 				<div class="section-two">
-				<p><b>Check all that apply:</b></p>
-				<div class="form-field-2">
-					<input type="checkbox" name="Invitations" value="Yes" id="contact_0" />
-					<label for="contact_0">Invitations</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Tuxes" value="Yes" id="contact_1" />
-					<label for="contact_1">Tuxes</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Floral" value="Yes" id="contact_2" />
-					<label for="contact_2">Floral</label>
-				</div>
-				<div class="form-field-2">
-			          <input type="checkbox" name="Center_Pieces" value="Yes" id="contact_3" />
-					<label for="contact_3">Center Pieces</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Wedding_Cake" value="Yes" id="contact_4" />
-					<label for="contact_4">Wedding Cake</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Tables" value="Yes" id="contact_5" />
-					<label for="contact_5">Tables</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Chairs" value="Yes" id="contact_6" />
-					<label for="contact_6">Chairs</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Linens" value="Yes" id="contact_7" />
-					<label for="contact_7">Linens</label>
-				</div>
-				<div class="form-field-2">
-		 			<input type="checkbox" name="Back_Drop" value="Yes" id="contact_8" />
-					<label for="contact_8">Back Drop</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Ceremony" value="Yes" id="contact_9" />
-					<label for="contact_9">Ceremony</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Luncheon" value="Yes" id="contact_10" />
-					<label for="contact_10">Lucheon</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Refreshments" value="Yes" id="contact_11" />
-					<label for="contact_11">Refreshments</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Photographer" value="Yes" id="contact_12" />
-					<label for="contact_12">Photographer</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="TV_Music_DJ" value="Yes" id="contact_13" />
-					<label for="contact_13">TV/ Music/ DJ</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Gift_Area" value="Yes" id="contact_14" />
-					<label for="contact_14">Gift Area</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Sign-in_Area" value="Yes" id="contact_15" />
-					<label for="contact_15">Sign-in Area</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Facility_Cleanup" value="Yes" id="contact_16" />
-					<label for="contact_16">Facility Cleanup</label>
-				</div>
-				<div class="form-field-2">
-					<input type="checkbox" name="Bus_Tables" value="Yes" id="contact_17" />
-					<label for="contact_17">Bus Tables</label>
-				</div>
+					<p><b>Check all that apply:</b></p>
+					<div class="form-field-2">
+						<input type="checkbox" name="Consultant" value="Yes" id="contact_0" />
+						<label for="contact_0">Consultant</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Invitations" value="Yes" id="contact_1" />
+						<label for="contact_1">Invitations</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Photographer" value="Yes" id="contact_2" />
+						<label for="contact_2">Photographer</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Planner" value="Yes" id="contact_3" />
+						<label for="contact_3">Planner</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Catering_/_Refreshments" value="Yes" id="contact_4" />
+						<label for="contact_4">Catering / Refreshments</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Drapery_/_Lighting" value="Yes" id="contact_5" />
+						<label for="contact_5">Drapery / Lighting</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Coordinator" value="Yes" id="contact_6" />
+						<label for="contact_6">Coordinator</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Decorating_Service" value="Yes" id="contact_7" />
+						<label for="contact_7">Decorating Service</label>
+					</div>
+					<div class="form-field-2">
+				          <input type="checkbox" name="Dresses" value="Yes" id="contact_8" />
+						<label for="contact_8">Dresses</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Decorations" value="Yes" id="contact_9" />
+						<label for="contact_9">Decorations</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Floral" value="Yes" id="contact_10" />
+						<label for="contact_10">Floral</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Tuxes_/_Ties" value="Yes" id="contact_11" />
+						<label for="contact_11">Tuxes / Ties</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Rentals_A_la_carte" value="Yes" id="contact_12" />
+						<label for="contact_12">Rentals &ast; A la carte</label>
+					</div>
+					<div class="form-field-2">
+			 			<input type="checkbox" name="Cake_/_Cupcakes" value="Yes" id="contact_13" />
+						<label for="contact_13">Cake / Cupcakes</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Setup_/_Takedown" value="Yes" id="contact_14" />
+						<label for="contact_14">Set Up / Take Down</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Rentals_Packages" value="Yes" id="contact_15" />
+						<label for="contact_15">Rentals &ast; Packages</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Music_/_Sound" value="Yes" id="contact_16" />
+						<label for="contact_16">Music / Sound</label>
+					</div>
+					<div class="form-field-2">
+						<input type="checkbox" name="Facility_Cleanup" value="Yes" id="contact_17" />
+						<label for="contact_17">Facility Cleanup</label>
+					</div>
 				</div>
 				<span id="sprytextarea_comments">
 					<label for="comments">Comments:</label>
-					<textarea name="comments" id="comments" cols="45" rows="5"></textarea>
+					<textarea name="comments" id="comments" maxlength="500"></textarea>
 				</span> 
 				<input type="submit" value="Send" class="submit">
 			</form>
