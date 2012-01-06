@@ -53,9 +53,10 @@ a, a:hover, a:active, a:visited {
 	outline: none;
 	overflow: hidden;
 }
+a.basic-link:hover { text-decoration: underline;}
 sup { font-size: 60%; vertical-align: top;}
 .clear { clear: both; display: block;}
-b { font-weight: 700;}
+b, strong { font-weight: 700;}
 em { font-style: oblique;}
 hr {
 	width: 60px;
