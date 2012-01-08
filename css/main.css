@@ -73,14 +73,14 @@ hr {
 	z-index: 1000;
 }
 #rpt-rose-right {
-	background: url(../img/rpt-rose-right.png) repeat-y 0 0;
+	background: url(../img/rose-12.png) repeat-y 0 0;
 	right: 0;
-	width: 104px;
+	width: 120px;
 }
 #rpt-rose-left {
-	background: url(../img/rpt-rose-left.png) repeat-y 0 0;
+	background: url(../img/rose-11.png) repeat-y 0 0;
 	left: 0;
-	width: 104px;
+	width: 120px;
 }
 #rpt-red-ribbon-right {
 	background: url(../img/rpt-red-ribbon-right.png) repeat-y 0 0;
