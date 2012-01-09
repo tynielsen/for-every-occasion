@@ -29,7 +29,7 @@ html {
 	background: -ms-linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* IE10+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#baa583',GradientType=0 ); /* IE6-9 */
 	background: linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* W3C */
-	behavior: url(../PIE.htc);
+	behavior: url(PIE.htc);
 }
 body {
 	color: #000000;
@@ -45,7 +45,7 @@ body {
 	background: -ms-linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* IE10+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#baa583',GradientType=0 ); /* IE6-9 */
 	background: linear-gradient(top, #ffffff 0%,#baa583 40%,#baa583 100%); /* W3C */
-	behavior: url(../PIE.htc);
+	behavior: url(PIE.htc);
 }
 a { color: #000000;}
 a, a:hover, a:active, a:visited {
@@ -120,7 +120,7 @@ hr {
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
-	behavior: url(../PIE.htc);
+	behavior: url(PIE.htc);
 }
 
 /*******************************************
@@ -538,7 +538,7 @@ a.btn-back {
 
 *******************************************/
 
-ul.img-row { margin: 0 25px 60px 29px; position: relative;}
+ul.img-row { margin: 0 25px 60px 29px; position: relative; height: 265px}
 ul.img-row li#img-1 {
 	float: left;
 	position: relative;
@@ -612,7 +612,7 @@ ul.pricing li {
 	box-shadow: 0 0 20px #ffffff;
 	-moz-box-shadow: 0 0 20px #ffffff;
 	-webkit-box-shadow: 0 0 20px #ffffff;
-	behavior: url(../PIE.htc);
+	behavior: url(PIE.htc);
 }
 #service-details .deets-container-2 {
 	border-radius: 20px;
@@ -621,7 +621,7 @@ ul.pricing li {
 	box-shadow: 0 0 20px #ffffff;
 	-moz-box-shadow: 0 0 20px #ffffff;
 	-webkit-box-shadow: 0 0 20px #ffffff;
-	behavior: url(../PIE.htc);
+	behavior: url(PIE.htc);
 }
 p.diy span, p.a-la-carte span, p.whole-package span {
 	display: block;
@@ -681,5 +681,5 @@ pre {
 	box-shadow: 3px 3px 8px #333333;
 	-moz-box-shadow: 3px 3px 8px #333333;
 	-webkit-box-shadow: 3px 3px 8px #333333;
-	behavior: url(../PIE.htc);
+	behavior: url(PIE.htc);
 }

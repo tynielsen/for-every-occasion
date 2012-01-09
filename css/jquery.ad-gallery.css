@@ -1,6 +1,4 @@
-.ad-gallery {
-	width: 800px;
-}
+.ad-gallery { width: 800px;}
 .ad-gallery, .ad-gallery * {
 	margin: 0;
 	padding: 0;
@@ -67,9 +65,7 @@
 	left: 0;
 	z-index: 9;
 }
-.ad-gallery .ad-image-wrapper .ad-image a img {
-	border: 0;
-}
+.ad-gallery .ad-image-wrapper .ad-image a img { border: 0;}
 .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
 	position: absolute;
 	bottom: 0px;
@@ -85,18 +81,10 @@
 	background: none;
 	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (enabled=true, sizingMethod=scale, src='opa75.png');
 }
-.ad-gallery .ad-image-wrapper .ad-image .ad-image-description .ad-description-title {
-	display: block;
-}
-.ad-gallery .ad-controls {
-	height: 20px;
-}
-.ad-gallery .ad-info {
-	float: left;
-}
-.ad-gallery .ad-slideshow-controls {
-	float: right;
-}
+.ad-gallery .ad-image-wrapper .ad-image .ad-image-description .ad-description-title { display: block;}
+.ad-gallery .ad-controls { height: 20px;}
+.ad-gallery .ad-info { float: left;}
+.ad-gallery .ad-slideshow-controls { float: right;}
 .ad-gallery .ad-slideshow-controls .ad-slideshow-start, .ad-gallery .ad-slideshow-controls .ad-slideshow-stop {
 	padding-left: 5px;
 	cursor: pointer;
@@ -120,9 +108,7 @@
 	z-index: 10;
 }
 /* IE 6 doesn't like height: 100% */
-* html .ad-gallery .ad-forward, .ad-gallery .ad-back {
-	height: 100px;
-}
+* html .ad-gallery .ad-forward, .ad-gallery .ad-back { height: 100px;}
 .ad-gallery .ad-back {
 	cursor: pointer;
 	left: -20px;
@@ -150,19 +136,16 @@
 	float: left;
 	padding-right: 5px;
 }
-.ad-gallery .ad-thumbs li a {
-	display: block;
-}
+.ad-gallery .ad-thumbs li a { display: block;}
 .ad-gallery .ad-thumbs li a img {
 	border: 3px solid #CCC;
 	display: block;
 }
-.ad-gallery .ad-thumbs li a.ad-active img {
-	border: 3px solid #616161;
-}
+.ad-gallery .ad-thumbs li a.ad-active img { border: 3px solid #616161;}
 /* Can't do display none, since Opera won't load the images then */
 .ad-preloads {
 	position: absolute;
 	left: -9000px;
 	top: -9000px;
+	display: none;
 }
