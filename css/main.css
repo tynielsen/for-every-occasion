@@ -58,6 +58,7 @@ sup { font-size: 60%; vertical-align: top;}
 .clear { clear: both; display: block;}
 b, strong { font-weight: 700;}
 em { font-style: oblique;}
+.small { font-size: 64%; margin-top: -10px;}
 hr {
 	width: 60px;
 	margin: 3px auto;
@@ -83,24 +84,28 @@ hr {
 	width: 120px;
 }
 #rpt-red-ribbon-right {
-	background: url(../img/rpt-red-ribbon-right.png) repeat-y 0 0;
+	background: url(../img/rpt-red-ribbon-right.png) repeat-y 0 65px;
+	background-size: 95px;
 	right: 0;
-	width: 81px;
+	width: 95px;
 }
 #rpt-red-ribbon-left {
-	background: url(../img/rpt-red-ribbon-left.png) repeat-y 0 0;
+	background: url(../img/rpt-red-ribbon-left.png) repeat-y 0 65px;
+	background-size: 95px;
 	left: 0;
-	width: 81px;
+	width: 95px;
 }
 #rpt-gold-ribbon-right {
-	background: url(../img/rpt-gold-ribbon-right.png) repeat-y 0 0;
+	background: url(../img/rpt-gold-ribbon-right.png) repeat-y 0 65px;
+	background-size: 95px;
 	right: 0;
-	width: 81px;
+	width: 95px;
 }
 #rpt-gold-ribbon-left {
-	background: url(../img/rpt-gold-ribbon-left.png) repeat-y 0 0;
+	background: url(../img/rpt-gold-ribbon-left.png) repeat-y 0 65px;
+	background-size: 95px;
 	left: 0;
-	width: 81px;
+	width: 95px;
 }
 .background {
 	background: #ffffff;
@@ -307,10 +312,10 @@ ul.image-carousel li.last-active{
 	left: 0;
 }
 #home div#content p.intro-p {
-	background: url(../img/text-homePage.png) no-repeat;
+	background: url(../img/text-homePage2.png) no-repeat;
 	display: block;
-	width: 809px;
-	height: 230px;
+	width: 805px;
+	height: 205px;
 	text-indent: -99999px;
 	margin: 0 auto 150px;
 }
@@ -340,85 +345,60 @@ ul.image-carousel li.last-active{
 #services ul.services-list li a.services-thumbnail { float: left; margin-right: 30px;}
 #services ul.services-list p a { color: #000000; font-weight: bold;}
 #services ul.services-list p a:hover { text-decoration: underline;}
-#services ul.services-list li.flowers h3 a {
-	background: url(../img/header-flowers-1.png) no-repeat;
+#services ul.services-list li h3 a {
 	display: block;
-	width: 147px;
-	height: 40px;
 	text-indent: -9999px;
-	margin: 20px 0 15px;
+	margin: 15px 0;
+}
+#services ul.services-list li.flowers h3 a {
+	background: url(../img/text-floral.png) no-repeat;
+	width: 100px;
+	height: 30px;
 }
 #services ul.services-list li.consultant h3 a {
 	background: url(../img/text-consultant.png) no-repeat;
-	display: block;
 	width: 432px;
 	height: 77px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
 }
 #services ul.services-list li.catering h3 a {
 	background: url(../img/text-catering.png) no-repeat;
-	display: block;
-	width: 145px;
-	height: 44px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
+	width: 365px;
+	height: 45px;
 }
 #services ul.services-list li.decorations h3 a {
 	background: url(../img/text-decorations.png) no-repeat;
-	display: block;
-	width: 372px;
-	height: 43px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
+	width: 328px;
+	height: 38px;
 }
 #services ul.services-list li.packages h3 a {
 	background: url(../img/text-packages.png) no-repeat;
-	display: block;
 	width: 132px;
 	height: 44px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
 }
 #services ul.services-list li.invitations h3 a {
 	background: url(../img/text-invitations.png) no-repeat;
-	display: block;
-	width: 188px;
-	height: 28px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
+	width: 166px;
+	height: 25px;
 }
 #services ul.services-list li.special-events h3 a {
 	background: url(../img/text-specialEvents.png) no-repeat;
-	display: block;
 	width: 244px;
 	height: 50px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
 }
 #services ul.services-list li.cakes h3 a {
 	background: url(../img/text-cakes.png) no-repeat;
-	display: block;
 	width: 254px;
 	height: 44px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
 }
 #services ul.services-list li.music h3 a {
 	background: url(../img/text-music.png) no-repeat;
-	display: block;
-	width: 104px;
-	height: 29px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
+	width: 230px;
+	height: 86px;
 }
 #services ul.services-list li.lighting h3 a {
 	background: url(../img/text-lighting.png) no-repeat;
-	display: block;
 	width: 296px;
 	height: 45px;
-	text-indent: -9999px;
-	margin: 20px 0 15px;
 }
 
 /*******************************************
@@ -460,7 +440,7 @@ ul.image-carousel li.last-active{
 #service-details h3 { text-indent: -9999px; margin: 0 auto 40px;}
 #service-details h4 {
 	font-size: 24px;
-	margin-bottom: 70px;
+	margin-bottom: 85px;
 	float: left;
 	width: 150px;
 	padding-top: 6px;
@@ -471,9 +451,9 @@ ul.image-carousel li.last-active{
 	width: 684px;
 }
 #service-details h3.decorations-header {
-	background: url(../img/text-decorations.png) no-repeat 0 0;
-	height: 43px;
-	width: 372px;
+	background: url(../img/text-decorations2.png) no-repeat 0 0;
+	height: 45px;
+	width: 335px;
 }
 #service-details h3.packages-header {
 	background: url(../img/text-packages2.png) no-repeat center 0;
@@ -481,8 +461,9 @@ ul.image-carousel li.last-active{
 	height: 52px;
 }
 #service-details h3.invitations-header {
-	background: url(../img/text-invitations.png) no-repeat center 0;
-	height: 28px;
+	background: url(../img/text-invitations2.png) no-repeat center 0;
+	height: 33px;
+	width: 173;
 }
 #service-details h3.specialEvents-header {
 	background: url(../img/text-specialEvents2.png) no-repeat center 0;
@@ -501,7 +482,7 @@ ul.image-carousel li.last-active{
 }
 #service-details h3.music-header {
 	background: url(../img/text-music2.png) no-repeat center 0;
-	width: 459px;
+	width: 468px;
 	height: 53px;
 }
 #service-details h3.lighting-header {
@@ -539,6 +520,7 @@ a.btn-back {
 *******************************************/
 
 ul.img-row { margin: 0 25px 60px 29px; position: relative; height: 265px}
+.music ul.img-row { height: 406px;}
 ul.img-row li#img-1 {
 	float: left;
 	position: relative;
@@ -574,6 +556,7 @@ ul.img-row li img {
 	font-size: 24px;
 	line-height: 2;
 }
+.packages .deets-container-1 p.fancy, .packages .deets-container-2 p.fancy { line-height: 1.2 !important;}
 #service-details .deets-container-1 ul {
 	line-height: 1.6;
 	text-align: center;
