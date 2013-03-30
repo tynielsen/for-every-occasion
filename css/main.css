@@ -347,12 +347,12 @@ ul.image-carousel li.last-active{
 	width: 805px;
 	height: 205px;
 	text-indent: -99999px;
-	margin: 0 auto 60px;
+	margin: 0 auto 50px;
 }
 
 .social-links {
-	width: 333px;
-	margin: 0 auto 80px;
+	width: 245px;
+	margin: 0 auto 100px;
 }
 
 .social-links:after {
@@ -378,20 +378,18 @@ ul.image-carousel li.last-active{
 	text-indent: -9999px;
 }
 
-.social-links .facebook {
-	background: url(../img/icon-facebook.png) no-repeat 0 0;
-}
+.social-links .facebook { background: url(../img/icon-facebook.png) no-repeat 0 0; }
+.social-links .twitter { background: url(../img/icon-twitter.png) no-repeat 0 0; }
+.social-links .pinterest { background: url(../img/icon-pinterest.png) no-repeat 0 0; }
+.social-links .weddings-r-us { background: url(../img/icon-foursquare.png) no-repeat 0 0; }
 
-.social-links .twitter {
-	background: url(../img/icon-twitter.png) no-repeat 0 0;
-}
-
-.social-links .pinterest {
-	background: url(../img/icon-pinterest.png) no-repeat 0 0;
-}
-
-.social-links .weddings-r-us {
-	background: url(../img/icon-foursquare.png) no-repeat 0 0;
+.link-utahWeddingCentre {
+	background: url(../img/icon-utahWeddingCentre.png) no-repeat 0 0;
+	display: block;
+	width: 300px;
+	height: 54px;
+	text-indent: -9999px;
+	margin: 0 auto 30px;
 }
 
 /*******************************************
