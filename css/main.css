@@ -74,12 +74,12 @@ hr {
 	z-index: 1000;
 }
 #rpt-rose-right {
-	background: url(../img/rose-12.png) repeat-y 0 0;
+	background: url(../img/rose-12.png) repeat-y 0 -8px;
 	right: 0;
 	width: 120px;
 }
 #rpt-rose-left {
-	background: url(../img/rose-11.png) repeat-y 0 0;
+	background: url(../img/rose-11.png) repeat-y 0 -8px;
 	left: 0;
 	width: 120px;
 }
