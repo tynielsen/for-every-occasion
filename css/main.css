@@ -187,15 +187,21 @@ input.textfieldRequiredState, .textfieldRequiredState input, input.textfieldInva
 
 *******************************************/
 
-div#header-container {
-	background: #000000 url(../img/header-bg-new.jpg) no-repeat center 0;
+#header-container {
+	background: #000000 url(../img/header-bg-3.jpg) no-repeat center 0;
 	min-width: 1024px;
 	position: relative;
-	z-index: 10;
+	z-index: 1001;
+	-webkit-box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.6);
+	-ms-box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.6);
+	-o-box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.6);
+	margin-top: -25px;
 }
 header {
 	width: 1024px;
-	height: 300px;
+	height: 264px;
 	margin: auto;
 	position: relative;
 	overflow: hidden;
@@ -263,7 +269,7 @@ header a#logo {
 */
 #main-nav {
 	width: 860px;
-	margin: 182px auto 0;
+	margin: 157px auto 0;
 }
 #main-nav li {
 	float: left;
@@ -276,7 +282,7 @@ header a#logo {
 	/* color: #baa583; */
 	color: #ffffff;
 	font-size: 24px;
-	padding: 15px 0;
+	padding: 5px 0 15px;
 	display: block;
 }
 #main-nav li a:hover,
@@ -341,7 +347,51 @@ ul.image-carousel li.last-active{
 	width: 805px;
 	height: 205px;
 	text-indent: -99999px;
-	margin: 0 auto 150px;
+	margin: 0 auto 60px;
+}
+
+.social-links {
+	width: 333px;
+	margin: 0 auto 80px;
+}
+
+.social-links:after {
+	content: "";
+	display: block;
+	clear: both;
+	float: none;
+	height: 0;
+	line-height: 0;
+}
+
+.social-links li {
+	float: left;
+	margin-left: 25px;
+}
+
+.social-links li:first-child { margin-left: 0; }
+
+.social-links li a {
+	display: block;
+	width: 64px;
+	height: 64px;
+	text-indent: -9999px;
+}
+
+.social-links .facebook {
+	background: url(../img/icon-facebook.png) no-repeat 0 0;
+}
+
+.social-links .twitter {
+	background: url(../img/icon-twitter.png) no-repeat 0 0;
+}
+
+.social-links .pinterest {
+	background: url(../img/icon-pinterest.png) no-repeat 0 0;
+}
+
+.social-links .weddings-r-us {
+	background: url(../img/icon-foursquare.png) no-repeat 0 0;
 }
 
 /*******************************************
